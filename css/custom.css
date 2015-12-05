@@ -1,0 +1,58 @@
+/* custom.css */
+body{
+    width: 1024px;   
+    background-color: blueviolet;
+}
+
+h1{
+    color: coral;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+}
+button{
+    color: coral;
+    
+}
+#buttonOne {
+  display: inline-flex;
+}
+
+#buttonTwo {
+  display: inline-flex;
+}
+
+#buttonThree {
+  display: inline-flex;
+}
+
+#buttonFour {
+  display: inline-flex;
+}
+
+#buttonFive {
+  display: inline-flex;
+}
+
+#slideOne,#slideTwo,#slideThree,#slideFour,#slideFive {
+display:none;
+transition:2s;
+     
+}
+
+.arrow {
+    display: inline-block;
+    xxxfloat: right;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#leftButton {
+    margin-left: 800px;
+}
+
+#container{
+height: 500px;
+width: 1000px;
+border: 4px dotted coral;
+}
